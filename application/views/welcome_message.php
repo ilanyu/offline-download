@@ -119,15 +119,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <!--[if lt IE 9]>
-<script src="//libs.useso.com/js/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="//cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
 <script src="/js/polyfill/rem.min.js"></script>
-<script src="//libs.useso.com/js/respond.js/1.4.2/respond.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
 <script src="//cdn.amazeui.org/amazeui/2.4.2/js/amazeui.legacy.min.js"></script>
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
 <script src="//cdn.amazeui.org/amazeui/2.4.2/js/amazeui.min.js"></script>
 <!--<![endif]-->
 <script>

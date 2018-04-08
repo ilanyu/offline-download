@@ -6,6 +6,10 @@ class Delete extends CI_Controller {
     public function index()
     {
         $file = $this->input->get('file');
+        if(strpos($file, '.htaccess') !== false) {
+            echo 'failed';
+            return;
+        }
         $uri = dirname(dirname(__DIR__)) . '/download/' . basename($file);
         unlink($uri);
         if (file_exists($uri))
